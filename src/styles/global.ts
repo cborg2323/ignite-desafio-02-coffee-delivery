@@ -9,4 +9,15 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: ${props => props.theme['background']};
     }
+
+    h1, h2, h3 {
+        font-family: 'Baloo 2', sans-serif;
+        color: ${props => props.theme['base-title']};
+    }
+
+    p, span {
+        font-family: 'Roboto', sans-serif;
+        color: ${props => props.theme['base-text']};
+    }
+
 `

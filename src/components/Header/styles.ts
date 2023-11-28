@@ -26,6 +26,10 @@ export const HeaderContainer = styled.header`
         color: ${props => props.theme['purple']};
     }
 
+    span {
+        font-size: 14px;
+    }
+
     div button {
         height: 38px;
         width: 38px;
