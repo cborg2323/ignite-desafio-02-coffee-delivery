@@ -15,6 +15,8 @@ export const IntroContainer = styled.main`
         flex-direction: column;
         gap: 66px;
 
+        margin-bottom: 108px;
+
         section {
             max-width: 588px;
         }
@@ -80,6 +82,9 @@ export const IntroContainer = styled.main`
     
     }
 
+    img {
+        height: 360px;
+    }
     
 
 `
