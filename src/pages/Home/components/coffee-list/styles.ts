@@ -40,6 +40,11 @@ export const CoffeeListContainer = styled.div`
     .coffee-list {
         margin-top: 54px;
 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 32px;
+        row-gap: 40px; 
+
         .coffee-card {
             display: flex;
             flex-direction: column;
