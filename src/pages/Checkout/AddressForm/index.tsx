@@ -1,4 +1,10 @@
-import { MapPinLine, CurrencyDollar } from 'phosphor-react'
+import { 
+            MapPinLine, 
+            CurrencyDollar,
+            CreditCard,
+            Bank,
+            Money,
+} from 'phosphor-react'
 import { AddressFormContainer } from "./styles";
 
 export function AddressForm() {
@@ -33,6 +39,23 @@ export function AddressForm() {
                         <span>Pagamento</span>
                         <p>O pagamento é feito na entrega. Escolha a forma que deseja pagar</p>
                     </div>
+                </div>
+
+                <div className="opcoes-pagamento">
+                    <button className="selected" >
+                        <CreditCard color="#8047F8" size={16} />
+                        CARTÃO DE CRÉDITO
+                    </button>
+
+                    <button>
+                        <Bank color="#8047F8" size={16} />
+                        CARTÃO DE DÉBITO
+                    </button>
+
+                    <button>
+                        <Money color="#8047F8" size={16} />
+                        DINHEIRO
+                    </button>
                 </div>
             </div>
         </AddressFormContainer>

@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         color: ${props => props.theme['base-title']};
     }
 
-    p, span {
+    p, span, button {
         font-family: 'Roboto', sans-serif;
         color: ${props => props.theme['base-text']};
     }

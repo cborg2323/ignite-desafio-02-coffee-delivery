@@ -89,6 +89,28 @@ export const AddressFormContainer = styled.div`
             }
         }
 
+        .opcoes-pagamento {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+
+            button {
+                border: 0;
+                display: flex;
+                gap: 12px;
+                background: ${props => props.theme['base-button']};
+                padding: 16px;
+                border-radius: 6px;
+
+                cursor: pointer;
+            }
+
+            .selected {
+                border: 1px solid ${props => props.theme['purple']};
+                background: ${props => props.theme['purple-light']};
+            }
+        }
+
         
     }
     
