@@ -12,45 +12,49 @@ export function SelectedCoffees() {
             <div className="selectedCoffeesCard">
                 <div className="selectedCoffeesItems">
                     <div className="selectedCoffeItem">
-                        <img src={coffeeTradicional} alt="" />
-                        <div className="coffeNameButtons">
-                            <p>Expresso Tradicional</p>
-                            <div className="coffeeItemButtons">
-                                <CounterBox />
-                                <button><Trash size={16} color="#8047F8" /> REMOVER</button>
+                        <div className="itemImageButtons">
+                            <img src={coffeeTradicional} alt="" />
+                            <div className="coffeNameButtons">
+                                <p className="text-regular-m">Expresso Tradicional</p>
+                                <div className="coffeeItemButtons">
+                                    <CounterBox variant={"checkout"} />
+                                    <button className="removeButton"><Trash size={16} color="#8047F8" /> REMOVER</button>
+                                </div>
                             </div>
                         </div>
-                        <p>R$ 9,90</p>
+                        <p className="text-bold-m">R$ 9,90</p>
                     </div>
                     <div className="selectedCoffeItem">
-                        <img src={coffeeTradicional} alt="" />
-                        <div className="coffeNameButtons">
-                            <p>Latte</p>
-                            <div className="coffeeItemButtons">
-                                <CounterBox />
-                                <button><Trash size={16} color="#8047F8" /> REMOVER</button>
+                        <div className="itemImageButtons">
+                            <img src={coffeeTradicional} alt="" />
+                            <div className="coffeNameButtons">
+                                <p className="text-regular-m">Latte</p>
+                                <div className="coffeeItemButtons">
+                                    <CounterBox variant={"checkout"} />
+                                    <button className="removeButton"><Trash size={16} color="#8047F8" /> REMOVER</button>
+                                </div>
                             </div>
                         </div>
-                        <p>R$ 19,80</p>
+                        <p className="text-bold-m">R$ 19,80</p>
                     </div>
                 </div>
 
                 <div className="selectedCoffeesResume">
-                    <div>
-                        <p>Total de itens</p>
-                        <p>R$ 29,70</p>
+                    <div className="resumeLine">
+                        <p className="text-regular-s">Total de itens</p>
+                        <p className="text-regular-m">R$ 29,70</p>
                     </div>
-                    <div>
-                        <p>Entrega</p>
-                        <p>R$ 3,50</p>
+                    <div className="resumeLine">
+                        <p className="text-regular-s">Entrega</p>
+                        <p className="text-regular-m">R$ 3,50</p>
                     </div>
-                    <div>
-                        <p>Total</p>
-                        <p>R$ 33,20</p>
+                    <div className="resumeLine">
+                        <p className="text-bold-l">Total</p>
+                        <p className="text-bold-l">R$ 33,20</p>
                     </div>
                 </div>
 
-                <button>CONFIRMAR PEDIDO</button>
+                <button className="buttonSubmit">CONFIRMAR PEDIDO</button>
             </div>
 
         </SelectedCoffeesContainer>

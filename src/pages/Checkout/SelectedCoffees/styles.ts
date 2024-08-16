@@ -2,6 +2,24 @@ import styled from 'styled-components'
 
 export const SelectedCoffeesContainer = styled.div`
 
+    .text-regular-s {
+        font-size: 14px;
+    }
+
+    .text-regular-m {
+        font-size: 16px;
+    }
+
+    .text-bold-l {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .text-bold-m {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
     h1 {
         font-size: 18px;
         margin-top: 40px;
@@ -23,9 +41,14 @@ export const SelectedCoffeesContainer = styled.div`
         margin-bottom: 48px;
     }
 
+    .itemImageButtons {
+        display: flex;
+    }
+
     .selectedCoffeItem {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
 
         padding: 8px 4px;
     }
@@ -36,32 +59,60 @@ export const SelectedCoffeesContainer = styled.div`
         margin-right: 20px;
     }
 
-    .coffeNameButtons {
-        margin-right: 50px;
-    }
-
     .coffeeItemButtons {
         display: flex;
         gap: 8px;
         margin-top: 8px;
+
+        .removeButton {
+            width: 91px;
+            height: 32px;
+            background: ${props => props.theme['base-button']};
+            border: none;
+            border-radius: 6px;
+            font-size: 12px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+
+        .removeButton:hover {
+            background: ${props => props.theme['base-hover']};
+            transition: 0.3s;
+            cursor: pointer;
+        }
     }
 
-    button {
-        width: 91px;
-        height: 32px;
-        background: ${props => props.theme['base-button']};
+    .selectedCoffeesResume {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        margin-bottom: 24px;
+    }
+
+    .resumeLine {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buttonSubmit {
+        background: ${props => props.theme['yellow']};
+        width: 368px;
+        height: 46px;
         border: none;
         border-radius: 6px;
-        font-size: 12px;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
+        color: ${props => props.theme['white']};
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 160%;
     }
 
-    button:hover {
-        background: ${props => props.theme['base-hover']};
+    .buttonSubmit:hover {
+        background: ${props => props.theme['yellow-dark']};
         transition: 0.3s;
         cursor: pointer;
     }

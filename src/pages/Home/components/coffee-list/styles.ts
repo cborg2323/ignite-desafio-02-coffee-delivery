@@ -109,32 +109,6 @@ export const CoffeeListContainer = styled.div`
                     gap: 8px;
                 }
 
-
-                .number-input {
-                    background: ${props => props.theme['base-button']};
-                    height: 38px;
-                    padding: 0 8px;
-                    gap: 4px;
-
-                    display: flex;
-                    align-items: center;
-                    border-radius: 6px;
-
-                    input::-webkit-outer-spin-button,
-                    input::-webkit-inner-spin-button {
-                        -webkit-appearance: none;
-                    }
-
-                    input {
-                        border: 0;
-                        background: ${props => props.theme['base-button']};
-                        width: 20px;
-                        font-size: 20px;
-
-                        text-align: center;
-                    }
-                }
-
                 .shopping-cart-background {
                     background: ${props => props.theme['purple-dark']};
                     padding: 8px;

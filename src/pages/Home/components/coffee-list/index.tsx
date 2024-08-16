@@ -2,9 +2,10 @@ import { Minus, Plus, ShoppingCart } from 'phosphor-react'
 import { CoffeeListContainer } from "./styles";
 
 import coffeeTradicional from '../../../../assets/produtos/expresso.png'
+import { CounterBox } from '../../../../components/CounterBox';
 
 export function CoffeeList() {
-    return(
+    return (
         <CoffeeListContainer>
             <div className="title-filters">
                 <h2>Nossos cafés</h2>
@@ -39,15 +40,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -71,15 +68,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -103,15 +96,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -135,15 +124,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -167,15 +152,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -199,15 +180,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -231,15 +208,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -263,15 +236,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -295,15 +264,11 @@ export function CoffeeList() {
                     <div className="price-form">
                         <span>R$ 9,90</span>
                         <div className="form-icon" >
-                            <div className="number-input">
-                                <Plus size={14} color="#8047F8" weight="bold"/>
-                                <input type="number"  />
-                                <Minus size={14} color="#8047F8" weight="bold"/>
-                            </div>
+                            <CounterBox />
                             <div className="shopping-cart-background">
-                                <ShoppingCart size={22} color="#FFF" weight="fill"/>
-                            </div> 
-                        </div>                
+                                <ShoppingCart size={22} color="#FFF" weight="fill" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
