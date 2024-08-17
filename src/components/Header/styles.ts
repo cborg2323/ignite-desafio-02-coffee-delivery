@@ -17,6 +17,24 @@ export const HeaderContainer = styled.header`
         gap: 12px;
     }
 
+    .quantityItemsCart {
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+        margin-top: -26.5px;
+        margin-left: -8px;
+        border-radius: 1000px;
+        background: ${props => props.theme['yellow-dark']};
+        display: flex;
+        justify-content: center;
+    }
+
+    .quantityItemsCart span {
+        color: ${props => props.theme['white']};
+        font-weight: bold;
+        font-size: 14px;
+    }
+
     div.location {
         height: 38px;
         padding: 0 8px;
@@ -46,4 +64,3 @@ export const HeaderContainer = styled.header`
 
 `
 
-    
